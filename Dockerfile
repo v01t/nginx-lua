@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:alpine
 LABEL maintainer "Vladimir Goldetsky <goldetsky@gmail.com>"
 
 RUN apk add --no-cache nginx-mod-http-lua openssl
